@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+    </head> 
+    
+    
+    <body>
+            
+        <h1>My First JavaScript</h1>
+
+        <p>JavaScript can change the content of an HTML element:</p>
+        
+        <button type="button" onclick="myFunction()">Click for Date!</button>
+        <input type="button" ondblclick="otherFunction()"  value="double click for Time!">
+        
+        <p id="demo">Date or Time? </p>
+
+        <script>
+            function myFunction() { 
+              document.getElementById("demo").innerHTML = Date();
+            }
+            function otherFunction() {
+                document.getElementById("demo").innerHTML = "Yessh"
+            }
+
+            </script>
+    </body>
+</html>
