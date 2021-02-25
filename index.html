@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
-
+    <script>
+           var a = 2;  
+           function notesFunction() {                   
+                a = a+1;
+                document.getElementById('numOfNotes').innerHTML = 'You have ' + a +' notes' 
+            }
+    </script>
 </head>
 
 <body>
@@ -17,9 +23,11 @@
     </header>
 
     <div class="index">
-        <button type="button" onclick="myFunction">Add a new note</button>
+        <button type="button" onclick = "notesFunction()">Add a new note</button>
         <p id="numOfNotes"> You have 2 notes</p>
     </div>
+
+   
 
     <main>
         <article>
