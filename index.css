@@ -48,6 +48,10 @@ article{
     padding: 30px;
 }
 
+article img{
+    float: right;
+}
+
 footer {
     text-align: center;
 }
